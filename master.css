@@ -1,0 +1,68 @@
+/* NOTE: background sito */
+body{
+  background-size: 100%;
+}
+/* NOTE: div al centro con trasparenza */
+.trasparenza{
+  background: rgba(0,0,0,0.3);
+  width: 1000px;
+  height: 700px;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+/* NOTE: misure del logo */
+
+/* NOTE:  */
+header, nav, .intestazione{
+  text-align: center;
+  margin: auto;
+  color: lime;
+  padding: 15px;
+}
+#logo{
+  height: 50px;
+  width: 130px;
+  margin: auto;
+  display: block;
+}
+
+.button{
+  padding: 10px;
+  background-color: lime;
+  align-items: center;
+}
+
+.lista-monopattini{
+  margin: 20px;
+
+}
+.check, .nome, .via, .stato, .carica{
+  color: white;
+  margin: 5px;
+}
+
+.check, .nome{
+  display: inline-block;
+}
+
+.via, .stato, .carica{
+  display: block;
+}
+
+#charge-gino22{
+  height: 20px;
+  width: 20%;
+  background: red;
+}
+#charge-mike24{
+  height: 20px;
+  width: 70%;
+  background: green;
+}
+
+#charge-fede154{
+  height: 20px;
+  width: 50%;
+  background: orange;
+}
